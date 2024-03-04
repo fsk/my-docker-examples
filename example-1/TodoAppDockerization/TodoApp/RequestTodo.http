@@ -1,0 +1,12 @@
+### GET ALL TODO
+GET http://localhost:1905/todo/
+Accept: application/json
+
+### POST TODO
+POST http://localhost:1905/todo
+Content-Type: application/json
+
+{
+  "todo": "Work Docker",
+  "description": "Docker in Practice Book should read"
+}
